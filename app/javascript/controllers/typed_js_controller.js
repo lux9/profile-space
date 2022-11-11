@@ -6,9 +6,9 @@ export default class extends Controller {
     new Typed(this.element, {
       strings: [
         `dog.dad`,
-        `bootcamp.teacher`
+        `bootcamp.teacher`,
         `drone.pilot`,
-        `amateur.photographer`,
+        `amateur.photographer`
       ],
       typeSpeed: 75,
       loop: true
