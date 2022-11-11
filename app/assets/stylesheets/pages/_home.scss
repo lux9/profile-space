@@ -81,16 +81,15 @@ section h2 {
   text-transform: uppercase;
 }
 section .text-container {
-  display: flex;
 }
 section .text-container .text-box {
-  margin: 20px;
   padding: 20px;
   background: #64645E;
   border-radius: 15px;
 }
+
 section .text-container .text-box h3 {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
