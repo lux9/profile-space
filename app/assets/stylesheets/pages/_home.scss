@@ -93,6 +93,9 @@ section .text-container .text-box h3 {
     font-size: 2rem;
     text-align: center;
   }
+  section {
+    text-align: center;
+  }
   section .text-container {
     flex-direction: column;
   }

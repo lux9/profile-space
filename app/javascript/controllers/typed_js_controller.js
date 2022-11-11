@@ -5,9 +5,9 @@ export default class extends Controller {
   connect() {
     new Typed(this.element, {
       strings: [
-        `<button>amateur photographer</button>`,
-        `<button>amateur photographer</button>`,
-        `<button>drone pilot</button>`
+        `> <button>amateur photographer</button>`,
+        `> <button>drone pilot</button>`,
+        `> <button>dog dad</button>`
       ],
       typeSpeed: 50,
       loop: true
