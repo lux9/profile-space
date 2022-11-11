@@ -160,7 +160,7 @@ section .text-container .text-box h3 {
 }
 @keyframes fade-left {
   0% {
-    transform: translateX(-100px);
+    transform: translateX(-50px);
     opacity: 0;
   }
   100% {
@@ -171,7 +171,7 @@ section .text-container .text-box h3 {
 
 @keyframes fade-right {
   0% {
-    transform: translateX(100px);
+    transform: translateX(50px);
     opacity: 0;
   }
   100% {
@@ -192,7 +192,7 @@ section .text-container .text-box h3 {
 @keyframes fade-top {
   0% {
     transform: translateY(-100px);
-    opacity: 1;
+    opacity: 0;
   }
   100% {
     transform: translateY(0px);
