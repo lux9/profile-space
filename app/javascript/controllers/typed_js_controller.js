@@ -5,11 +5,11 @@ export default class extends Controller {
   connect() {
     new Typed(this.element, {
       strings: [
-        `> <button>amateur photographer</button>`,
-        `> <button>drone pilot</button>`,
-        `> <button>dog dad</button>`
+        `amateur photographer`,
+        `drone pilot`,
+        `dog dad`
       ],
-      typeSpeed: 50,
+      typeSpeed: 75,
       loop: true
     })
   }
