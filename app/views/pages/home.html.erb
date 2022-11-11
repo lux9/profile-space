@@ -1,16 +1,18 @@
 <header>
-  <nav>
-    <a class="#home" class="active">Home</a>
+  <nav class="navbar navbar-expand-sm navbar-light navbar-lewagon"
+  data-controller="navbar"
+  data-action="scroll@window->navbar#updateNavbar"
+>
+    <a class="#home active">Home</a>
     <a class="#about">About</a>
     <a class="#services">Services</a>
     <a class="#contact">Contact</a>
   </nav>
 
 </header>
-
-<section id="home">
-  <div class="container reveal">
-    <div class="home-content">
+<section id="home" style="background-image: url('https://images.unsplash.com/photo-1611080402167-ed75bae6df32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBsYW5kc2NhcGV8ZW58MHx8MHx8&w=1000&q=80'); height:40vh; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center; position: relative';">
+  <div class="container margined" class="background-opacity" style="background-color: rgba(1,1,1,.5); padding: 5px 40px; border: 10px solid white; height: 40vh">
+    <div class="">
       <h1>Hi! I'm Lux</h1>
       <h5>full-stack developer</h5>
       <div class="hobbies-type">
