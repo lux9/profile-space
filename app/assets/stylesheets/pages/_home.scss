@@ -61,6 +61,12 @@ section:nth-child(3) {
 section:nth-child(4) {
   color: #151515;
   background: #e0ffff;
+
+}
+section:nth-child(5) {
+  h2 {
+    color: #e0ffff;
+  }
 }
 section .container {
   margin: 25px;
@@ -81,6 +87,7 @@ section .text-container .text-box {
   margin: 20px;
   padding: 20px;
   background: #64645E;
+  border-radius: 15px;
 }
 section .text-container .text-box h3 {
   font-size: 30px;
