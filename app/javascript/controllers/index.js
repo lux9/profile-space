@@ -44,8 +44,12 @@ function reveal() {
 
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
+      reveals[i].classList.remove("deactive");
+
     } else {
       reveals[i].classList.remove("active");
+      reveals[i].classList.add("deactive");
+
     }
   }
 }
