@@ -135,10 +135,13 @@ section .text-container .text-box h3 {
   opacity: 1;
 }
 .deactive {
-  animation: fade-out 1s ease-in;
+  animation: fade-out 0.5s ease-in;
 }
 .active.fade-bottom {
   animation: fade-bottom 1s ease-in;
+}
+.active.fade-top {
+  animation: fade-top 1s ease-in;
 }
 .active.fade-left {
   animation: fade-left 1s ease-in;
@@ -179,11 +182,21 @@ section .text-container .text-box h3 {
 }
 @keyframes fade-out {
   0% {
-    transform: translateY(0px);
+    transform: translateX(0px);
     opacity: 1;
   }
   100% {
-    transform: translateY(100px);
+    transform: translateX(-200px);
+    opacity: 1;
+  }
+}
+@keyframes fade-top {
+  0% {
+    transform: translateY(-100px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0px);
     opacity: 1;
   }
 }
