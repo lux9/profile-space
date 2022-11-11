@@ -45,14 +45,10 @@ function reveal() {
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
       reveals[i].classList.remove("deactive");
-
     } else {
       reveals[i].classList.remove("active");
-    }
-    if (elementTop < windowHeight) {
       reveals[i].classList.add("deactive");
     }
-
   }
 }
 
