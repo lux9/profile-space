@@ -1,42 +1,47 @@
 <header>
-  <nav class="navbar navbar-expand-sm navbar-light navbar-lewagon"
-  data-controller="navbar"
-  data-action="scroll@window->navbar#updateNavbar"
->
+  <nav class="navbar navbar-expand-sm navbar-light navbar-lewagon" data-controller="navbar" data-action="scroll@window->navbar#updateNavbar">
     <a class="inactive-link #home active">Home</a>
     <a class="inactive-link #about">Career</a>
     <a class="inactive-link #services">Experience</a>
     <a class="inactive-link #contact">Contact</a>
   </nav>
-
 </header>
-<section id="home" style="background-image: url('https://images.unsplash.com/photo-1611080402167-ed75bae6df32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBsYW5kc2NhcGV8ZW58MHx8MHx8&w=1000&q=80'); height:40vh; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center; position: relative';">
+
+
+<%# <section id="home" style="background-image: url('https://images.unsplash.com/photo-1611080402167-ed75bae6df32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBsYW5kc2NhcGV8ZW58MHx8MHx8&w=1000&q=80'); height:40vh; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center; position: relative';"> %>
+<video autoplay muted loop plays-inline class="video-back">
+  <source src="https://rr1---sn-oguesn6y.googlevideo.com/videoplayback?expire=1668238943&ei=__luY5GtOOqs2roPxMqNwA0&ip=121.185.211.139&id=o-AIrD7nCXgu1c2JOX-z6HJHDII0sBkpzBzqhnDB2vFkkY&itag=248&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&pcm2=no&spc=SFxXNoRoiOCkO7bU2fuFJl-A6Rsp6ao&vprv=1&mime=video%2Fwebm&ns=56x0lzej9pocR3eMfBD7K3UJ&gir=yes&clen=8705999&dur=40.007&lmt=1661525815971436&keepalive=yes&fexp=24001373,24007246&c=WEB&txp=5316224&n=UGHFA6wUMtyZpg&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cpcm2%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAJNSfUC0Ge0eAg0ToUCYSWadzC7wywym7u5RjbFwtcsMAiEApwUzxsQLybPYWf7UCCiaM0PzXdwgXPC-w4Y5sV0CvUI%3D&rm=sn-3u-jwws7z,sn-3u-bh2sz7l&req_id=e3b735c654f8a3ee&ipbypass=yes&redirect_counter=2&cms_redirect=yes&cmsv=e&mh=hm&mm=30&mn=sn-oguesn6y&ms=nxu&mt=1668217009&mv=m&mvi=1&pl=16&lsparams=ipbypass,mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAKlleV7qFB2XmSZTPkFM905jhI8BHVlyMVLUTe5jLiG6AiAfAw0tEHZjnKooOzf8vpONThWMcfBcWoZGnt-iQwlIyw%3D%3D" type="video/mp4">
+</video>
+<section id="home" style="">
   <div class="container">
     <div class="row">
-      <span class="" style="width: 16.3%">
+      <span class="" style="width: 8%">
       </span>
-      <span class="active fade-top" style="width: 67.5%; border-bottom: 5px solid white; height: 5vh;">
+      <span class="active fade-top" style="width: 84%; border-bottom: 5px solid white; height: 5vh;">
       </span>
-      <span class="" style="width: 15%">
+      <span class="" style="width: 8%">
       </span>
-      <span class="active fade-left col-2" style="border-right: 5px solid white; height: 40vh;">
+      <span class="active fade-left col-1" style="border-right: 5px solid white; height: 40vh;">
       </span>
-      <div class="container col-8 m-0" class="background-opacity" style="background-color: rgba(1,1,1,.5);">
-        <div class="">
+      <div class="container col-10 m-0 pb-3" class="background-opacity" style="background-color: rgba(1,1,1,.4); display: flex;
+    justify-content: end;
+    align-items: end;">
+        <div class="text-right">
           <h1>Hi! I'm Lux</h1>
           <h5>full-stack developer</h5>
-          <div class="hobbies-type">
-            <button class="btn btn-dark">> <span class="" data-controller="typed-js"></span></button>
-          </div>
+
         </div>
       </div>
       <span class="active fade-right col-1" style="border-left: 5px solid white; height: 40vh;">
       </span>
-      <span class="" style="width: 16.3%">
+      <span class="" style="width: 8%">
       </span>
-      <span class="active fade-bottom" style="width: 67.5%; border-top: 5px solid white; height: 5vh;">
+      <span class="active fade-bottom" style="background-color: white; width: 84%; border-top: 5px solid white; height: 7vh;">
+          <div class="hobbies-type text-left">
+            <button class="btn btn-dark">> <span class="" data-controller="typed-js"></span></button>
+          </div>
       </span>
-      <span class="" style="width: 15%">
+      <span class="" style="width: 8%">
       </span>
     </div>
 
@@ -45,12 +50,13 @@
 
 </section>
 
-<section id="about">
+<section id="about" style="background-image: url('https://images.unsplash.com/photo-1611080402167-ed75bae6df32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBsYW5kc2NhcGV8ZW58MHx8MHx8&w=1000&q=80'); height:40vh; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center; position: relative';">
+
   <div class="container">
     <h2 class="reveal fade-top">Career</h2>
     <div class="text-container">
       <div class="row">
-        <div class="p-2 col-12 col-md-4">
+        <div class="p-2 col-12">
           <div class="text-box reveal fade-left">
             <h3>Rails</h3>
             <p>
@@ -58,7 +64,7 @@
             </p>
           </div>
         </div>
-        <div class="p-2 col-12 col-md-4">
+        <div class="p-2 col-12">
           <div class="text-box reveal fade-right">
             <h3>Api's</h3>
             <p>
@@ -66,7 +72,7 @@
             </p>
           </div>
         </div>
-        <div class="p-2 col-12 col-md-4">
+        <div class="p-2 col-12">
           <div class="text-box reveal fade-right">
             <h3>Databases</h3>
             <p>
@@ -79,12 +85,12 @@
   </div>
 </section>
 
-<section id="services">
+<section id="services" style="background-image: url('https://images.unsplash.com/photo-1611080402167-ed75bae6df32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBsYW5kc2NhcGV8ZW58MHx8MHx8&w=1000&q=80'); height:40vh; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center; position: relative';">
   <div class="container">
     <h2 class="reveal fade-top">Experience</h2>
     <div class="text-container">
       <div class="row">
-        <div class="p-2 col-12 col-md-6">
+        <div class="p-2 col-12">
           <div class="text-box reveal fade-left">
             <h3>Bootcamp Teacher</h3>
             <p>
@@ -92,7 +98,7 @@
             </p>
           </div>
         </div>
-        <div class="p-2 col-12 col-md-6">
+        <div class="p-2 col-12">
           <div class="text-box reveal fade-right">
             <h3>##</h3>
             <p>##</p>
@@ -103,12 +109,12 @@
   </div>
 </section>
 
-<section id="contact">
+<section id="contact" style="background-image: url('https://images.unsplash.com/photo-1611080402167-ed75bae6df32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW4lMjBsYW5kc2NhcGV8ZW58MHx8MHx8&w=1000&q=80'); height:40vh; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center; position: relative';">
   <div class="container">
     <h2 class="reveal fade-top">Contact</h2>
     <div class="text-container">
       <div class="row">
-        <div class="p-2 col-12 col-md-6">
+        <div class="p-2 col-12">
           <div class="text-box reveal fade-left">
             <h3>Direct</h3>
             <p>
@@ -116,7 +122,7 @@
             </p>
           </div>
         </div>
-        <div class="p-2 col-12 col-md-6">
+        <div class="p-2 col-12">
           <div class="text-box reveal fade-right">
             <h3>Social medias</h3>
             <p>LinkedIn: lux9</p>
